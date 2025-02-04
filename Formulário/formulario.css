@@ -1,0 +1,51 @@
+#processando {
+    display: none; /*Esconder a mensagem iniccialmente*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: green;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+#meuFormulario {
+    background-color: #f0f8ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000080; /* Azul escuro */
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000080; /* Borda azul escura */
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color:#0000ff; /* Azul */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+
+button:hover {
+    background-color: #00008b; /* Azul mais escuro ao passar o mouse */
+}
+
